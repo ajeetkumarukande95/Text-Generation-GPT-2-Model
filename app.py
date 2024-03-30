@@ -40,4 +40,4 @@ gr.Interface(generate_text, input_text, output_text,
              title="Text Generation with GPT-2",
              description="Generate text using the GPT-2 model.",
              theme="default", 
-             allow_flagging="never").launch()
+             allow_flagging="never").launch(share=True)
